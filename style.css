@@ -1,0 +1,16 @@
+
+body{
+color: white;
+background-color: black;
+
+}
+.middle{
+	text-align:center;
+	border-style: solid;
+	padding: 50px;
+	border-width: 5px;
+	border-color: red;
+	border-radius: 40px;
+	position: relative;
+	top: 40px;
+}

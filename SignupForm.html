@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<form  class="middle" name="myform" method="POST" action="savesignupinfo.php" onsubmit="return validateform()">
+		Name: <input type="text" name="name"><br><br>
+		PassWord <input type="PassWord" name="pw"><br><br>
+		<input type="submit" value="SIGN UP">
+		 
+
+
+	</form>
+	<script type="text/javascript" >
+		function validateform(){
+        var  name = document.forms["myform"]["name"].value;
+        var pw =document.forms["myform"]["pw"].value;
+
+        if(name == "" || pw == ""){
+	    alert("please fill all the form");
+	    return false;
+}
+}
+	</script>
+
+</body>
+</html>
